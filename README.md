@@ -10,10 +10,20 @@ CompanyOS is a multi-tenant SaaS platform for managing companies, users, roles, 
 - RSpec
 
 ## Core Features (MVP)
+
+### Phase 1 (Completed)
 - User authentication (Devise)
-- Multi-company support (tenants)
-- Role-based access control (manual RBAC)
-- Basic dashboard
+- Sign up / Sign in / Sign out
+- Password recovery (Devise)
+- Basic Tailwind UI for auth pages
+- RSpec test setup (request specs)
+- FactoryBot test data setup
+
+### Phase 2 (Planned)
+- Multi-company support (multi-tenancy)
+- Role-based access control (RBAC)
+- Company-based data isolation
+- Dashboard system
 
 ## Setup
 
